@@ -4,12 +4,12 @@ namespace TabControlSample.ViewModels;
 
 public class MainWindowViewModel : ObservableObject
 {
-    public List<ParentTabViewModel> ParentViewModels { get; } = [];
+    public List<ParentTabViewModel> ParentTabViewModels { get; } = [];
 
     public MainWindowViewModel()
     {
-        ParentViewModels.Add(new ParentTabViewModel("A"));
-        ParentViewModels.Add(new ParentTabViewModel("B"));
-        ParentViewModels.Add(new ParentTabViewModel("C"));
+        ParentTabViewModels.Add(new ParentTabViewModel("A"));
+        ParentTabViewModels.Add(new ParentTabViewModel("B"));
+        ParentTabViewModels.Add(new ParentTabViewModel("C"));
     }
 }
