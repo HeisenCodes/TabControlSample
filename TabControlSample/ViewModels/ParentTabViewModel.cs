@@ -10,7 +10,7 @@ public class ParentTabViewModel
 
     public ParentTabViewModel(string name)
     {
-        Name = name;
+        Name = $"Parent {name}";
 
         ChildTabViewModels.Add(new ChildTabViewModel($"{name} 1"));
         ChildTabViewModels.Add(new ChildTabViewModel($"{name} 2"));

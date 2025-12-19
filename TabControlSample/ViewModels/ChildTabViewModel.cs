@@ -4,7 +4,7 @@ public class ChildTabViewModel
 {
     public ChildTabViewModel(string name)
     {
-        Name = name;
+        Name = $"Child {name}";
     }
 
     public string Name { get; }
